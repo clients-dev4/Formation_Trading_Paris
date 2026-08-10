@@ -130,7 +130,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
   overflow: hidden;
 }
 .section--dark h1, .section--dark h2, .section--dark h3, .section--dark h4 { color: #fff; }
-.section--dark strong { color: #fff; }
+.section--dark strong, .topbar strong, .hero strong, .pagehead strong { color: #fff; }
 .section--dark a { color: var(--teal-400); }
 .section--dark a:hover { color: var(--teal-300); }
 
@@ -291,8 +291,8 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
 .btn--ghost { background: transparent; color: var(--ink); border-color: var(--line-strong); }
 .btn--ghost:hover { border-color: var(--navy-700); color: var(--navy-700); background: rgba(27, 58, 147, .04); }
 
-.section--dark .btn--ghost { color: #fff; border-color: rgba(255, 255, 255, .28); }
-.section--dark .btn--ghost:hover { border-color: var(--teal-400); color: var(--teal-300); background: rgba(95, 191, 192, .1); }
+.section--dark .btn--ghost, .hero .btn--ghost, .pagehead .btn--ghost { color: #fff; border-color: rgba(255, 255, 255, .28); }
+.section--dark .btn--ghost:hover, .hero .btn--ghost:hover, .pagehead .btn--ghost:hover { border-color: var(--teal-400); color: var(--teal-300); background: rgba(95, 191, 192, .1); }
 
 .btn--sm { padding: 11px 22px; font-size: .9rem; }
 .btn--lg { padding: 18px 38px; font-size: 1.05rem; }

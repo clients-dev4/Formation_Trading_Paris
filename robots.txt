@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /_source/
 
 Sitemap: https://formation-trading-paris.fr/sitemap.xml
